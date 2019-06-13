@@ -2,9 +2,9 @@
 # version 3
 import pystache
 import re
-from lib.generate_gcc import generate_gcc
-from lib.generate_llvm import generate_llvm
-import lib.generate_helpers as generate_helpers
+from generate.gcc import generate_gcc
+from generate.llvm import generate_llvm
+import generate.helpers as generate_helpers
 
 
 class generate_dockerfile:
