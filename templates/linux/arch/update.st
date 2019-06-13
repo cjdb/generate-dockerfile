@@ -1,0 +1,1 @@
+RUN pacman -Syyu --noconfirm
